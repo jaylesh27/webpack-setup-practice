@@ -39,7 +39,6 @@ const config = {
 						// the options object has a limit property with a value of 40000.  this means look for any images that are greater than 40000 bytes, save it to the build/output directory.  If smaller, save it as raw data to bundle.js
 						options:  { limit: 40000 }
 					},
-					'file-loader',
 					'image-webpack-loader'
 				]
 			}
